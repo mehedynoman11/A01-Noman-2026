@@ -45,6 +45,24 @@ nav ul li, a {
     font-size: 18px;
     cursor: pointer;
 }
+.btn-outline{
+    color: #2563EB;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 2px solid #2563EB;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-outline-dark{
+    color: #252525;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 2px solid #252525;
+    font-size: 18px;
+    cursor: pointer;
+}
 /* banner section  */
 .banner-img img{
     display: block;
@@ -154,6 +172,11 @@ nav ul li, a {
     font-size: 18px;
     color: #575757;
 }
+.secure-your-spot-content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
 .secure-your-spot-card{
     display: flex;
     flex-direction: column;
@@ -162,6 +185,14 @@ nav ul li, a {
     border: 2px solid #575757;
     border-radius: 10px;
     padding: 30px;
+}
+.dark{
+    background-color: #0D1B2A;
+    color: #fff;
+
+}
+.secure-your-spot-card-dark{
+    color: white !important;
 }
 .secure-your-spot-card-p{
     font-size: 18px;
