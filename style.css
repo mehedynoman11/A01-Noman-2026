@@ -90,4 +90,42 @@ nav ul li, a {
     z-index: 2;
 }
 
+/* meet-the-speaker section */
+.meet-the-speaker-section{
+    margin-top: 70px;
+}
+
+.meet-the-speaker-text{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.meet-the-speaker-text h2{
+    font-size: 3em;
+}
+.meet-the-speaker-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.meet-card .label{
+    color: #2563EB;
+    font-size: 18px;
+    font-weight: 600;
+}
+.meet-card h2{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+}
+.meet-card p{
+    color: #575757;
+    font-size: 18px;
+    font-weight: 600;
+}
+.meet-card p, h2{
+    padding-top: 20px;
+}
+
 
